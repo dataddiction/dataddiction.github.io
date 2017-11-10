@@ -15,7 +15,12 @@ import Dropoutfrom keras.layers
 
 
 ```python
-####Chargement des librairies import pandas as pdfrom pandas import read_csvfrom sklearn.model_selection import KFoldfrom sklearn.model_selection import cross_val_scorefrom sklearn.linear_model import LogisticRegression```
+####Chargement des librairies 
+import pandas as pdfrom pandas 
+import read_csvfrom sklearn.model_selection
+import KFoldfrom sklearn.model_selection 
+import cross_val_scorefrom sklearn.linear_model 
+import LogisticRegression```
 ```python####Importation de la table a étudiée
 nom_fichier = 'pima-indians-diabetes.data.csv'nom = ['preg', 'plas','pres', 'skin','test', 'mass', 'pedi', 'age', 'class']table = read_csv(nom_fichier, names = nom) #Transformation du fichier importé en "dataframe"tableau = table.values #On récupere les valeurs de la tableX = tableau[:, 0:8] #On prend toute les colonnes (ici de 0 jusqu'à la huitième incluse (pas la 9 qui correspond à la 8 ici)). On définie ainsi les variables explicativesY = tableau[:,8] #On prend la neuvième colonnes pour définir la variable à expliquer
 print(Y) #Ici, la variable est binaire: Il faut donc choisir un algorithme adaptée
