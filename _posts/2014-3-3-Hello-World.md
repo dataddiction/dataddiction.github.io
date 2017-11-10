@@ -24,3 +24,17 @@ print(x)
 ```python
 print(x)
 ```
+
+
+```python
+import matplotlib.pyplot as plt
+%matplotlib inline
+```
+
+```python
+
+x = [1,2,3,4]
+y = [5,4,3,2,1]
+plt.plot(x,y)
+
+```
