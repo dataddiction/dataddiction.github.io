@@ -2,7 +2,8 @@
 
 
 # Large CNN 
-          import numpyfrom keras.datasets
+
+       import numpyfrom keras.datasets
        import cifar10from keras.models 
        import Sequentialfrom keras.layers 
        import Densefrom keras.layers 
