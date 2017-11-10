@@ -10,4 +10,4 @@
        import Dropoutfrom keras.layers 
        import Flattenfrom keras.constraints
        import maxnormfrom keras.optimizers 
-       > import SGD
+> import SGD
