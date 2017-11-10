@@ -10,7 +10,7 @@
 
 
 ``` import Densefrom keras.layers 
-import Dropoutfrom keras.layers python
+import Dropoutfrom keras.layers ```
 
 
 
