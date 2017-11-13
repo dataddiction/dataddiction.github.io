@@ -1,7 +1,7 @@
 
 ### Représenter graphiquement nos données
 #### Histogramme
-```
+```python
 from matplotlib import pyplot
 from pandas import read_csv
 nom_fichier = 'pima-indians-diabetes.data.csv'noms_variables = ['preg','plas','pres','skin','test','mass','pedi','age', 'class']
