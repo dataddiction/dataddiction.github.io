@@ -2,12 +2,12 @@
 ### Représenter graphiquement nos données
 #### Histogramme
 ```python
-    from matplotlib import pyplot
-    from pandas import read_csv
-    nom_fichier = 'pima-indians-diabetes.data.csv'noms_variables = ['preg','plas','pres','skin','test','mass','pedi','age', 'class']
-    donnees  = read_csv(nom_fichier, names = noms_variables)
-    donnees.hist()
-    pyplot.show()```
+from matplotlib import pyplot
+from pandas import read_csv
+nom_fichier = 'pima-indians-diabetes.data.csv'noms_variables = ['preg','plas','pres','skin','test','mass','pedi','age', 'class']
+donnees  = read_csv(nom_fichier, names = noms_variables)
+donnees.hist()
+pyplot.show()```
 
 ![png](/ipynb/output_0_0.png)
 
