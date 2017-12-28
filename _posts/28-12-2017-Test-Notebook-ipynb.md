@@ -7,18 +7,20 @@
 #### Réponse:
 ##### Avant de comprendre le role de ces fonctions, il nous faut partir de données. De Data frame exploitable.
 ## Importation de pandas et création des data frames
-import pandas as pd```
+import pandas as pd
+```
+
 ```python
 #### Créations de 3 Data frames d'exemples```
+
 ```python
 #### Test sur les listes
 import matplotlib.pyplot as plt
 x = [1,5,5,2,7,6,9,10]y =[1,4,7,9,3,9,7,12]
-plt.scatter(x,y)plt.show()#### Question: Quel est le type des objets x et ytype(x)# Réponse: Il s'agit d'une liste```
+plt.scatter(x,y)plt.show()#### Question: Quel est le type des objets x et ytype(x)# Réponse: Il s'agit d'une liste
+```
 ![png](Note_Python_files/Note_Python_3_0.png)
 
-
-    list
 
 ```python
 
