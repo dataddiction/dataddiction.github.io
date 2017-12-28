@@ -18,6 +18,8 @@ $$
 \end{equation*}
 $$
 
+
+
 ```python
 #### Note Python
 #### L'idée est ici de synthétiser les différente manière de géreer les données.#### Question: Quelles sont les fonctions pratiques pour manipuler les données avec Pandas.
