@@ -1,8 +1,22 @@
 
----layout: post
-title: Test_notebook!---
+---
+layout: post
+mathjax: true
+title:  "Awesome Data Visualization"
+date:   2017-12-28 15:06:25 +0000
+categories: data
+---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+$$
+\begin{equation*}
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0
+\end{vmatrix}
+\end{equation*}
+$$
 
 ```python
 #### Note Python
