@@ -31,7 +31,9 @@ df = web.DataReader("XOM", "yahoo", debut, fin)
 df.head(20)
 #### Importation de la librairie graphique
 import matplotlib.pyplot as pltfrom matplotlib import style
-style.use('fivethirtyeight')```
+style.use('fivethirtyeight')
+
+```
     ---------------------------------------------------------------------------
     OSError                                   Traceback (most recent call last)
     C:\Users\PGPB1729\AppData\Local\Continuum\Anaconda3\lib\site-packages\requests\packages\urllib3\connectionpool.py in urlopen(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)        593             if is_new_proxy_conn:    --> 594                 self._prepare_proxy(conn)        595     
