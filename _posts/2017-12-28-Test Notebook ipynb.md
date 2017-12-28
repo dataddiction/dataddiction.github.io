@@ -5,8 +5,11 @@ title: Test_notebook!---
 
 
 ```python
-#### Note Python#### L'idée est ici de synthétiser les différente manière de géreer les données.#### Question: Quelles sont les fonctions pratiques pour manipuler les données avec Pandas.
-#### Pourquoi:###### Manipuler les données est essentiel dans ce métier, les données fournies ne sont généralement pas exploitable.###### En effet, elles peuvent être incomplètes, être présente sur plusieurs tables, Etre présente de manière non exploitables###### que ce soient liées à un format ou à une syntaxe.###### La manipulation de données est essentielle. Elle représente en moyenne 80% du temps d'un data miner.###### Il existe différents outils de manipulation des données, SQL étant le plus connu.###### Nous nous intéresserons ici à Pandas, cette librairies Python, de manipulation des données.###### Quatre concepts seront abordées ici, la concaténation (concat), l'ajout (append), la fusion (merge) et la jointure (join) de données###### Nous verrons des cas d'utilisations de ces fonctions7
+#### Note Python
+#### L'idée est ici de synthétiser les différente manière de géreer les données.#### Question: Quelles sont les fonctions pratiques pour manipuler les données avec Pandas.
+#### Pourquoi:
+###### Manipuler les données est essentiel dans ce métier, les données fournies ne sont généralement pas exploitable.###### En effet, elles peuvent être incomplètes, être présente sur plusieurs tables, Etre présente de manière non exploitables###### que ce soient liées à un format ou à une syntaxe.###### La manipulation de données est essentielle. Elle représente en moyenne 80% du temps d'un data miner.
+###### Il existe différents outils de manipulation des données, SQL étant le plus connu.###### Nous nous intéresserons ici à Pandas, cette librairies Python, de manipulation des données.###### Quatre concepts seront abordées ici, la concaténation (concat), l'ajout (append), la fusion (merge) et la jointure (join) de données###### Nous verrons des cas d'utilisations de ces fonctions7
 ```
 ```python
 #### Réponse:
