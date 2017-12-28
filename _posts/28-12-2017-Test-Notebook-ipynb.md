@@ -1,13 +1,17 @@
 
-```python#### Note Python#### L'idée est ici de synthétiser les différente manière de géreer les données.#### Question: Quelles sont les fonctions pratiques pour manipuler les données avec Pandas.
+```python
+#### Note Python#### L'idée est ici de synthétiser les différente manière de géreer les données.#### Question: Quelles sont les fonctions pratiques pour manipuler les données avec Pandas.
 #### Pourquoi:###### Manipuler les données est essentiel dans ce métier, les données fournies ne sont généralement pas exploitable.###### En effet, elles peuvent être incomplètes, être présente sur plusieurs tables, Etre présente de manière non exploitables###### que ce soient liées à un format ou à une syntaxe.###### La manipulation de données est essentielle. Elle représente en moyenne 80% du temps d'un data miner.###### Il existe différents outils de manipulation des données, SQL étant le plus connu.###### Nous nous intéresserons ici à Pandas, cette librairies Python, de manipulation des données.###### Quatre concepts seront abordées ici, la concaténation (concat), l'ajout (append), la fusion (merge) et la jointure (join) de données###### Nous verrons des cas d'utilisations de ces fonctions7
 ```
-```python#### Réponse:
+```python
+#### Réponse:
 ##### Avant de comprendre le role de ces fonctions, il nous faut partir de données. De Data frame exploitable.
 ## Importation de pandas et création des data frames
 import pandas as pd```
-```python#### Créations de 3 Data frames d'exemples```
-```python#### Test sur les listes
+```python
+#### Créations de 3 Data frames d'exemples```
+```python
+#### Test sur les listes
 import matplotlib.pyplot as plt
 x = [1,5,5,2,7,6,9,10]y =[1,4,7,9,3,9,7,12]
 plt.scatter(x,y)plt.show()#### Question: Quel est le type des objets x et ytype(x)# Réponse: Il s'agit d'une liste```
@@ -16,7 +20,9 @@ plt.scatter(x,y)plt.show()#### Question: Quel est le type des objets x et ytype(
 
     list
 
-```pythonimport pandas as pdimport datetimeimport pandas_datareader as webfrom pandas_datareader import data, wb
+```python
+
+import pandas as pdimport datetimeimport pandas_datareader as webfrom pandas_datareader import data, wb
 debut = datetime.datetime(2010,1,1)fin = datetime.datetime(2015,8,22)
 #### Création de notre data frame sur la valeur "Yahoo" 
 df = web.DataReader("XOM", "yahoo", debut, fin)
