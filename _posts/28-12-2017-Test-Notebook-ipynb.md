@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 x = [1,5,5,2,7,6,9,10]y =[1,4,7,9,3,9,7,12]
 plt.scatter(x,y)plt.show()#### Question: Quel est le type des objets x et ytype(x)# Réponse: Il s'agit d'une liste
 ```
-![png](Note_Python_files/Note_Python_3_0.png)
+![png](ipynb/Images/Note_Python_3_0.png)
 
 
 ```python
