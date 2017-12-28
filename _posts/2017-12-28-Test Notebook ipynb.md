@@ -4,9 +4,9 @@ mathjax: true
 title:  "Awesome Data Visualization"
 date:   2017-12-28 15:06:25 +0000
 categories: data
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ---
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
 
@@ -137,4 +137,6 @@ df4 = df1.append(df2)print(df4) #### Ici, la fonction append joue le même rôle
 ```python#### Là ou cela se complique, c'est quanqd on joins nos dataframe 1 et 3
 df4 = df1.append(df3)print(df4)#### Par raaport à la fonction concat, il est plus efficace de```
           Dette_du_pays  Inflation      PIB  Taux_de_chomage    2000         50.573        NaN  259.839            6.342    2001         51.731        NaN  239.957            5.825    2002         49.805        NaN  263.940            5.950    2003         48.942        NaN   31.109            6.567    2004         47.862        NaN  381.743            7.375    2005         48.190        NaN  389.043            7.642    2006         43.141        NaN  420.017            7.042    2007         38.202        NaN  487.818            6.117    2000            NaN      1.294  259.839            6.342    2001            NaN      2.680  239.957            5.825    2002            NaN      1.939  263.940            5.950    2003            NaN      2.319   31.109            6.567    2004            NaN      1.022  381.743            7.375    2005            NaN      0.833  389.043            7.642    2006            NaN      1.497  420.017            7.042    2007            NaN      1.676  487.818            6.117    
-```python####```
+```python
+####
+```
