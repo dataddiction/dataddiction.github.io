@@ -1,1 +1,32 @@
 
+## dplyr
+
+'''{r}
+
+install.packages("swirl")
+
+library(swirl)
+
+####################################################################################
+####### Commande SWIRL A r
+####################################################################################
+
+#### Transfo en tbl
+
+cran <- tbl_df(mydf) # Plus d'informationque juste mydf
+# 1. Dimension df
+# 2. 10 première ligne
+# 3. Nom et classe de la variable
+
+
+#### Effacer la liste des variables
+rm(list = ls())
+
+#### Dplyr: Liste des 5 noms 
+# select(), filter(), arrange(), mutate(), and summarize(
+
+#### Select(dataset, variable1, variable2, variable3...)
+
+select(cran,r_arch:country) # Sélectionner toute les variables de r_arch à country
+
+'''
