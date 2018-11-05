@@ -1,7 +1,7 @@
 
 ## dplyr
 
-'''{r}
+```{r}
 
 install.packages("swirl")
 
@@ -28,5 +28,4 @@ rm(list = ls())
 #### Select(dataset, variable1, variable2, variable3...)
 
 select(cran,r_arch:country) # Sélectionner toute les variables de r_arch à country
-
-'''
+```
